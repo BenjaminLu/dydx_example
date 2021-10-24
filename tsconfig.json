@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "baseUrl": "./",
+    "outDir": "dist",
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationDir": "lib",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "pretty": true,
+    "lib": ["ESNext", "DOM"]
+  },
+  "files": ["src/index.ts"],
+  "exclude": ["node_modules"]
+}
